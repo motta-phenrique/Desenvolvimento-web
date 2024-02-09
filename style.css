@@ -1,0 +1,81 @@
+.titulo{
+    background-color: white;
+    width: 100%;
+    height: 80px;
+    border-bottom: 3px solid black;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    font-family:'Times New Roman', Times, serif
+}
+
+body{
+    background: linear-gradient(gray, lightgray, white);
+}
+
+h1{
+    font-size: 50px;
+    color: black;
+    margin-top: 15px;
+    margin-left: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.botao{
+    margin-top: 20px;
+    margin-left: 40px;
+    border: 1px solid black;
+    height: 40px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 2px;
+}
+
+.botao:hover{
+    background-color: red;
+    transition: 0.8s;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    margin-left: 8px;
+}
+
+.top{
+    display: flex;
+    width: 100%;
+   justify-content: center;
+}
+
+.filme{
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    align-items: center;
+    width: 300px;
+    box-shadow: 0.5px 2px 1px 1px black;
+    background-color: white;
+}
+
+.titulo-filme{
+    margin-top: 20px;
+    text-align: center;
+    color: rgb(37, 35, 35);
+    font-weight: bold;
+    font-size: 26px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}   
+
+.texto{
+    text-align: justify;
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
